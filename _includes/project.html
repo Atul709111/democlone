@@ -1,0 +1,22 @@
+{% assign counter = include.counter | modulo: 2 %}
+<div class="project {% if counter == 0 %} reversed {% endif %} ">
+    <img src="{{ include.project.image }}" class="project__image">
+    <div class="project__content">
+        <div class="project__title">
+            {{ include.project.name }}
+        </div>
+        <div class="project__description">
+            {{ include.project.description }}
+        </div>
+        {% if include.project.github %}
+            <a href="{{ include.project.github }}" target="_blank" class="project__link">
+                View Github
+            </a>
+        {% endif %}
+        {% if include.project.video %}
+            <a href="{{ include.project.video }}" target="_blank" class="project__link">
+                View Video
+            </a>
+        {% endif %}
+    </div>
+</div>

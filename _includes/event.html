@@ -1,0 +1,13 @@
+<div class="event">
+    <div class="event__images">
+        {% for image in include.event.images %}
+            <img src="{{ image }}" alt="">
+        {% endfor %}
+    </div>
+    <div class="event__title">
+        {{ include.event.title }}
+    </div>
+    <div class="event__description limit-width">
+        {{ include.event.description }}
+    </div>
+</div>

@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Prof. Zafar Alam",
+        "position": "Faculty In Charge",
+        "image": "/images/members/profs/zafar-alam-sir.jpeg",
+        "linkedin": "https://in.linkedin.com/in/zafar-alam-555670a6",
+        "email": "zafar@iitism.ac.in"
+    },
+    {
+        "name": "Shreyansh Shandilya",
+        "position": "Coordinator",
+        "image": "/images/members/coordinators/shreyanshshandilya.jpeg",
+        "linkedin": "https://www.linkedin.com/in/shreyansh-shandilya-5a8b1b246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        "github": "https://github.com/shreyanshandilya",
+        "email": "shreyanshandilya@gmail.com",
+        "backgroundPosition": "top"
+    },
+    {
+        "name": "Ebad Sayed",
+        "position": "Coordinator",
+        "image": "/images/members/coordinators/ebadsayed.jpeg",
+        "linkedin": "https://www.linkedin.com/in/ebad-sayed-0861a6227/",
+        "github": "https://github.com/ES7",
+        "email": "sayedebad.777@gmail.com"
+    }
+]

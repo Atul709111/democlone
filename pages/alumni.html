@@ -1,0 +1,13 @@
+---
+permalink: /alumni
+title: Alumni | RoboISM
+---
+
+<div class="block">
+    <h1>Our Alumni</h1>
+    <div class="grid">
+        {% for alumnus in site.data.alumni %}
+            {% include team-member.html member=alumnus %}
+        {% endfor %}
+    </div>
+</div>
