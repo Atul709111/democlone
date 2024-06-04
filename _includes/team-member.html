@@ -1,0 +1,43 @@
+<div class="team-member">
+    <div class="team-member__image" style="background-image: url('{{ include.member.image }}'); {% if include.member.backgroundPosition %} background-position: {{ include.member.backgroundPosition }} {% endif %}"></div>
+    <div class="team-member__name">
+        {{ include.member.name }}
+    </div>
+    {% if include.member.position %}
+        <div class="team-member__position">
+            {{ include.member.position }}
+        </div>
+    {% endif %}
+    <div class="team-member__social">
+<!--         {% if include.member.website %}
+            <a href="{{ include.member.website }}" target="_blank">
+                <i class="fas fa-globe"></i>
+            </a>
+        {% endif %} -->
+        {% if include.member.youtube %}
+            <a href="{{ include.member.youtube }}" target="_blank">
+                <i class="fa fa-youtube-play"></i>
+            </a>
+        {% endif %}
+        {% if include.member.website %}
+            <a href="{{ include.member.website }}" target="_blank">
+                <i class="fa fa-globe"></i>
+            </a>
+        {% endif %}
+        {% if include.member.linkedin %}
+            <a href="{{ include.member.linkedin }}" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        {% endif %}
+        {% if include.member.email %}
+            <a href="mailto:{{ include.member.email }}" target="_blank">
+                <i class="fas fa-envelope-square"></i>
+            </a>
+        {% endif %}
+        {% if include.member.github %}
+            <a href="{{ include.member.github }}" target="_blank">
+                <i class="fab fa-github-square"></i>
+            </a>
+        {% endif %}
+    </div>
+</div>
