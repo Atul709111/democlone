@@ -1,0 +1,11 @@
+---
+permalink: /achievements
+title: Achievements | RoboISM
+---
+
+<div class="block">
+    <h1>Achievements</h1>
+    {% for achievement in site.data.achievements %}
+        {% include achievement.html achievement=achievement %}
+    {% endfor %}
+</div>
